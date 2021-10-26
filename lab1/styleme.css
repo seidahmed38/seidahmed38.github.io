@@ -1,0 +1,47 @@
+h2{
+    color: red;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: blue;
+}
+ul{
+    list-style-type: square;
+}
+#list2{
+    list-style-type: circle;
+}
+.footer{
+ background-color: silver;
+}
+
+.header{
+    background-color: skyblue;
+}
+
+a:link { 
+    color: #FF0000; 
+}
+
+a:visited { color: #FFF00F; 
+}
+
+a:hover { 
+    color: lightblue; 
+}
+
+a:active { 
+    color: #0000FF; 
+} 
+
+body{
+    background-color :snow;
+}
+.moodImages{
+    width: 25vw;
+    height: 50vh;
+}
+
+
