@@ -1,0 +1,41 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: sienna;
+    font-style: italic;
+    text-align: center;
+}
+
+form{
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: auto;
+    background-color: lightblue;
+}
+
+input, label, option{
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    text-align: center;
+    background-color: lightsalmon;
+}
+label.textboxes {
+    text-align:left;
+    padding-right:10px;
+    display:inline-block;
+    min-width: 77px;
+}
+#back{
+    margin-bottom: -10px;
+}
+.checkers{
+    max-width: fit-content;
+    margin: auto;
+}
+
+
+
+
