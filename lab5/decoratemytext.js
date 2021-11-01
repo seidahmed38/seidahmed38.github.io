@@ -7,11 +7,38 @@ window.onload = function(){
 function igpayAtinlayFunctions(){
     var text = document.getElementById("textArea");
     text.style.color = "Blue";
-
+    var text = document.getElementById("textArea").value;
+    let str1 = text.split(" ");
+    let newWords = " ";
+    for(let i=0; i<str1.length; i++){
+        if(str1[i].startsWith('a') || str1[i].startsWith('A') || 
+        str1[i].startsWith('e') || str1[i].startsWith('E') ||
+        str1[i].startsWith('o') || str1[i].startsWith('O') ||
+        str1[i].startsWith('u') || str1[i].startsWith('U') ||
+        str1[i].startsWith('i') || str1[i].startsWith('I')){
+            str1[i] += "-ay";
+        }
+        else{
+            str1[i] = "ay-"+str1[i];
+        }
+        newWords += (str1[i]+" ");
+    }
+    document.getElementById("textArea").value = newWords;
+    
 }
 function malkovichBtnFunctions()
 {
-    var text = document.getElementById("textArea");
+    var text = document.getElementById("textArea").value;
+    let words = text.split(" ");
+    let newWords = " ";
+    
+    for(let i=0; i<words.length; i++){
+        if(words[i].length>=5){
+            words[i] ="Malkovich";
+        }
+        newWords += (words[i]+" ");
+    }
+    document.getElementById("textArea").value = newWords;
    
 } 
 
