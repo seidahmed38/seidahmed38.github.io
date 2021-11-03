@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+	Seid Ahmed Adem - 613435
+	CS472 - WAP - Homework 8
+	MIU, 2021 
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CS472: ASCII Animation Viewer</title>
+    <link rel="stylesheet" href="ascii.css">
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+    <meta name="referer" content="origin-when-cross-origin">
+</head>
+
+<body>
+    <h1>CS472: ASCII Animation Viewer</h1>
+    <textarea id="textArea" cols="80" rows="20"></textarea>
+    <div class="controlGroupContainerDiv">
+        <div class="controlGroup">
+            <span> Play Controls:</span>
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+        </div>
+        <div class="controlGroup">
+            <span>Animation:</span>
+            <select name="animation" id="animation">
+                <option value="Blank">Blank</option>
+                <option value="Custom">Custom</option>
+                <option value="Exercise">Exercise</option>
+                <option value="Juggler">Juggler</option>
+                <option value="Bike">Bike</option>
+                <option value="Dive">Dive</option>
+            </select>
+        </div>
+        <div class="controlGroup">
+            <span>Size:</span>
+            <select name="size" id="size">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="12pt" selected>Medium</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+            </select>
+        </div>
+        <div class="controlGroup">
+            <span>Speed:</span>
+            <input type="checkbox" id="turbo">
+			<label for="turbo">Turbo</label>
+        </div>
+    </div>
+
+    <div class="validator">
+        <p> 
+            <a href="http://validator.w3.org/check?uri=referer"><img src="w3c-html.png" alt="HTML Validator" /></a><br />
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="CSS Validator" /></a><br />
+            <a href="https://webster.cs.washington.edu/jslint/?referer"><img src="w3c-js.jpg" alt="JS Validator" /></a> </p>
+        </a>
+    </div>
+</body>
+
+</html>
