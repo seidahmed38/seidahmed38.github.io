@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="module_closure.js"></script>
+    <title>Module and Closure</title>
+</head>
+<body>
+    <h3> Question 1 </h3>
+    <pre>1. Rewrite the setInterval example (the one with function delayMsg2 that prints out ‘Rudy!’) to use the module
+        pattern. Call the module ‘rudyTimer’. I.e., varrudyTimer’= (… )() and then use the module as the event handler
+        on the button. I.e., <\button onclick=" rudyTimer’ ()">Click me!</button ></pre> <br>
+    <div>
+        
+        <button onclick="rudyTimer()">Click me!</button>
+        <div id="output"></div>
+    </div>
+
+    <h3> Question 2 </h3>
+    <pre>2. Write a small Javascript application that uses a module for creating different kinds of banking accounts. </pre>
+    <div>
+        <label>Account Name:</label>
+        <input id="accountName" type="text"><br>
+        <label>Deposit     :</label>
+        <input id="deposit" type="text"><br>
+        <button id="createNewAccountBtn">Create New Account</button><br>
+        <textarea id="textArea" cols="60" rows="10"></textarea>
+    </div>
+</body>
+</body>
+</html>
