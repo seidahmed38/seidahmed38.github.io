@@ -1,0 +1,12 @@
+body{
+    max-width: fit-content;
+    margin : auto;
+    padding: 10px;
+    align-content: center;
+    background-color: burlywood;
+}
+
+#icon-image{
+    margin-top: 10px;
+    border-radius: 10px ;
+}
