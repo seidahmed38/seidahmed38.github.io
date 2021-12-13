@@ -8,5 +8,6 @@ body{
 
 #icon-image{
     margin-top: 10px;
-    border-radius: 10px ;
+    border: 5px solid #ffff;
+    border-radius: 50%;
 }
